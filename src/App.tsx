@@ -13,7 +13,6 @@ const App = () => {
             Настроить тест
           </Link>
           <Link
-            reloadDocument
             to="/quiz"
             className="py-12 shadow-md shadow-black text-xl font-semibold"
           >
