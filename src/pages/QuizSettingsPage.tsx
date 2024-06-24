@@ -35,7 +35,7 @@ const QuizSettingsPage = () => {
   return (
     <div className="mb-16 ">
       <Link
-        to="/"
+        to="/quiz-project"
         className="text-2xl sticky top-[10px] left-[20px] cursor-pointer py-2 px-4 hover:bg-red-500 hover:text-white transition-all"
       >
         X

@@ -7,14 +7,14 @@ const App = () => {
         <h1 className="text-6xl">Выберите действие</h1>
         <div className="mt-12 grid grid-cols-2 gap-6 text-center">
           <Link
-            to="/quiz-settings"
+            to="/quiz-project/settings"
             className="py-12 shadow-md shadow-black text-xl font-semibold"
           >
             Настроить тест
           </Link>
           <Link
             reloadDocument
-            to="/quiz"
+            to="/quiz-project/quiz"
             className="py-12 shadow-md shadow-black text-xl font-semibold"
           >
             Начать тест

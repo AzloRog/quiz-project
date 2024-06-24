@@ -16,11 +16,11 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/quiz-settings",
+    path: "/quiz-project/settings",
     element: <QuizSettingsPage />,
   },
   {
-    path: "/quiz",
+    path: "/quiz-project/quiz",
     element: <QuizPage />,
   },
 ]);
