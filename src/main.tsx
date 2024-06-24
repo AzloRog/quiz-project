@@ -12,7 +12,7 @@ import QuizPage from "./pages/QuizPage.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/quiz-project",
     element: <App />,
   },
   {
